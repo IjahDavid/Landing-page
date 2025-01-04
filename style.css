@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.nav-item{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    color: #fff;
+}
+.nav-item:hover{
+    color: tomato;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.logo img{
+    width: 40px;
+    position: absolute;
+    left: 1%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+.hero button{
+    padding: 10px 30px 10px 30px;
+    background: tomato;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-container{
+    background-image: url(images/Blue_Moon.jpeg);
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    object-fit: none;
+}
+.About-us{
+    padding: 15px 0 100px 0;
+    text-align: center;
+    width: 50%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content img{
+    width: 50px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+
+}
+.About{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+}
+#About{
+    background-image: url(images/Super\ Moon.jpeg);
+}
+.images-Icons{
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.icons img{
+    width: 120px;
+    margin: 20px;
+}
+.contact-us{
+    width: 50%;
+    padding: 20px;
+    margin: 50px 0 50px 0;
+    padding-bottom: 50px;
+}
+.contact-us h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+.contact-us p{
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.contact-us button{
+   position: absolute;
+   left: 50%;
+    padding: 10px 30px 10px 30px;
+    background: tomato;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px grey;
+    cursor: pointer;
+    transform: translate(-50%,-50%);
+    margin-top: 20px;
+}
+.contact-us input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+footer{
+    background-color: midnightblue;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+/* .footer img{
+    width: 30px;
+    display: flex;
+    justify-content: start;
+
+} */
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    margin-left: 15%;
+    font-size: 20px;
+}
+.footer-logo p{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+.footer-logo img{
+    width: 35px;
+    display: flex;
+    justify-content: start;
+}
+.footer p{
+    font-size: 15px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    margin-left: 48%;
+    padding-bottom: 20px;
+}
+.footer-Icon img{
+    width: 30px;
+    gap: -10px;
+}
